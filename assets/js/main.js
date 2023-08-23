@@ -24,7 +24,7 @@ Tools
 
 // Chiedi i km da percorrere
 
-const kmToDo = Number(prompt('Quanti km devi percorrere?'));
+const kmToDo = Number(prompt('Quanti km devi percorrere?', '10'));
 
 console.log(kmToDo);
 
@@ -35,7 +35,7 @@ if (isNaN(kmToDo)) {
 
 // Chiedi età passeggero
 
-const anniPasseggero = Number(prompt('Quanti anni hai?'));
+const anniPasseggero = Number(prompt('Quanti anni hai?', '34'));
 
 console.log(anniPasseggero);
 
